@@ -1,7 +1,5 @@
-# Portfolio
+# FANDOMQUIZ
 
-I have learned the HTML,CSS and JavaScript to basic level and learning the frameworks like
+I have made the quiz asking my friends fantasies about their superheroes and whether it resemble with me .
 
-1. React
-1. Tools for Hosting Website
-1. replit
+Check this out to play the quiz

@@ -6,7 +6,7 @@ console.log(
 );
 function checkAnswer(myquestion, myanswer) {
   var newName = requirement.question(myquestion);
-  if (newName.toLowerCase === myanswer.toLowerCase) {
+  if (newName.toLowerCase() === myanswer.toLowerCase()) {
     console.log("You are right");
     currentScore = currentScore + 1;
   } else {

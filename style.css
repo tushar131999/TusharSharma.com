@@ -87,8 +87,9 @@ hr {
 .section {
   padding: 2rem;
 }
-.section h3 {
+.section h2 {
   text-align: center;
+  font-weight: bolder;
 }
 .ow {
   background-color: var(--third-color);
@@ -105,7 +106,12 @@ hr {
 }
 .footer a {
   color: white;
+  text-decoration: none;
 }
 .footer ul {
   padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-weight: bold;
+  text-align: center;
 }

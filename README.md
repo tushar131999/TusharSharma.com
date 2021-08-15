@@ -1,4 +1,4 @@
-# This is my portflio code created and designed using
+# This is my portfolio code created and designed using
 
 1. HTML
 1. CSS

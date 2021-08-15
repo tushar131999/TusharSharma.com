@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+:root {
+  --primary-color: #6366f1;
+  --secondary-color: grey;
+  --third-color: #e5e7eb;
+}
+
+body {
+  font-family: "Noto Sans JP", "sans-serif";
+  margin: 0px;
+}
+hr {
+  margin: 2rem 0rem;
+}
+/**container **/
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+/** links **/
+.link-primary {
+  color: var(--primary-color);
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 1rem 0rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-secondary {
+  border: 1px solid var(--primary-color);
+  border-radius: 0rem 1rem 0rem 1rem;
+}
+
+/** list **/
+
+.non-bullet-list {
+  list-style: none;
+}
+.list-style-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  color: white;
+  border-radius: 0rem 0rem 0rem 1rem;
+}
+.nav-brand {
+  font-weight: bold;
+}
+.nav-pills {
+  text-align: right;
+}
+.navigation .nav-pills a {
+  color: white;
+  text-decoration: none;
+}
+.navigation .active {
+  font-weight: bold;
+}
+/** header**/
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  margin: auto;
+  max-width: 450px;
+  display: block;
+}
+.hero .hero-heading {
+  text-align: center;
+  color: var(--secondary-color);
+  font: bold;
+}
+#header-heading {
+  color: chocolate;
+}
+.section {
+  padding: 2rem;
+}
+.section h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+.ow {
+  background-color: var(--third-color);
+}
+
+/** footet**/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-weight: bold;
+  text-align: center;
+}

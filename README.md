@@ -1,9 +1,12 @@
-# This is my portfolio code created and designed using
+## To Do App
 
-1. HTML
-1. CSS
-1. JS
+This project contains a simple Todo application
 
-You can see the live on https://portfoliotushar.netlify.app/ 
+It has following features -
+-- Anyone can create a Todo
+-- Anyone can see their existing todos
+-- Anyone can mark a todo as done
 
-See the updated projects, read blogs and more about me.Stay Tuned!!!
+// initiate a node project
+
+// put a package.json
